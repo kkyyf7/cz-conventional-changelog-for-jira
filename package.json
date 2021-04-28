@@ -1,7 +1,7 @@
 {
-  "name": "@digitalroute/cz-conventional-changelog-for-jira",
+  "name": "custom-cz-conventional-changelog-for-jira",
   "version": "0.0.0-semantically-released",
-  "description": "Commitizen adapter following the conventional-changelog format and also asking for JIRA issue.",
+  "description": "Fork Commitizen adapter following the conventional-changelog format and also asking for JIRA issue.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
@@ -9,16 +9,16 @@
     "format": "prettier --write *.js",
     "semantic-release": "semantic-release"
   },
-  "homepage": "https://github.com/digitalroute/cz-conventional-changelog-for-jira",
+  "homepage": "https://github.com/kkyyf7/cz-conventional-changelog-for-jira",
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalroute/cz-conventional-changelog-for-jira.git"
+    "url": "https://github.com/kkyyf7/cz-conventional-changelog-for-jira"
   },
   "engineStrict": true,
   "engines": {
     "node": ">= 10"
   },
-  "author": "Marcus Johansson <polarn@gmail.com>",
+  "author": "Kiky Adryan <kiky.adryan@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "boxen": "^5.0.0",

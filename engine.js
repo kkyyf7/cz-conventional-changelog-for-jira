@@ -80,7 +80,7 @@ module.exports = function(options) {
         {
           type: 'list',
           name: 'type',
-          message: "Select the type of change that you're committing:",
+          message: 'Select the type of change that you\'re committing:',
           choices: choices,
           default: options.defaultType
         },
@@ -211,7 +211,7 @@ module.exports = function(options) {
 
         // parentheses are only needed when a scope is present
         var scope = answers.scope ? '(' + answers.scope + ')' : '';
-        var jira = answers.jira ? answers.jira + ' ' : '';
+        var jira = answers.jira ? '[' + answers.jira + '] ' : '';
 
         // Hard limit this line in the validate
         const head = answers.type + scope + ': ' + jira + answers.subject;
